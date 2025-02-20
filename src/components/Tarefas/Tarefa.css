@@ -1,0 +1,20 @@
+button.Concluir {
+  background-color: rgb(156, 55, 55);
+  color: rgb(206, 205, 205);
+}
+
+button.Concluido {
+  background-color: rgb(138, 186, 137);
+  color: rgb(28, 27, 27);
+}
+p.Concluido {
+  color: rgb(58, 88, 58);
+  text-decoration-line: line-through;
+}
+div {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(163, 138, 186);
+  height: 2rem;
+  width: 90%;
+}
