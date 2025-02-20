@@ -1,0 +1,12 @@
+ .Concluir {
+    button{
+        background-color: rgb(101, 101, 152);
+        color: rgb(64, 64, 103);
+    }
+ }
+ .Concluido {
+    button {
+        background-color: rgb(172, 157, 157);
+        color: rgb(93, 90, 90);
+    }
+ }

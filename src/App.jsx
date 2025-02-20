@@ -1,13 +1,12 @@
-import './App.css'
+import "./App.css";
+import ListaTarefas from "./components/ListaDeTarefas/ListaTarefas";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      
+      <ListaTarefas />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
