@@ -1,6 +1,6 @@
 button.Concluir {
-  background-color: #ff6b6b;
-  color: white;
+  background-color: hsl(0, 0%, 60%);
+  color: rgb(23, 22, 22);
   border: none;
   border-radius: 8px;
   padding: 8px 16px;
@@ -9,11 +9,11 @@ button.Concluir {
 }
 
 button.Concluir:hover {
-  background-color: #ff4757;
+  background-color: #749389;
 }
 
 button.Concluido {
-  background-color: #6bff6b;
+  background-color: #7ecdac;
   color: black;
   border: none;
   border-radius: 8px;
@@ -22,11 +22,11 @@ button.Concluido {
 }
 
 button.Concluido:hover {
-  background-color: #50c878;
+  background-color: #58a188;
 }
 
 p.Concluido {
-  color: #50c878;
+  color: #528a64;
   text-decoration: line-through;
   font-style: italic;
 }
