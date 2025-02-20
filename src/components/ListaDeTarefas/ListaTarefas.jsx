@@ -4,6 +4,7 @@ import Tarefa from "../Tarefas/Tarefa";
 function ListaTarefas() {
   return (
     <>
+    <div className="container">
       <header>Lista-de-Tarefas</header>
       <div className="tarefas">
         <Tarefa titulo="Revisar código lista-de-tarefas" />
@@ -11,6 +12,7 @@ function ListaTarefas() {
         <Tarefa titulo="Organizar LinkedIn" />
         <Tarefa titulo="Organizar mesa" />
         <Tarefa titulo="Terminar livro" />
+      </div>
       </div>
     </>
   );
