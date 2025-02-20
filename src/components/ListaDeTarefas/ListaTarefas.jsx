@@ -1,9 +1,11 @@
 import "./ListaTarefas.css";
+import Tarefa from "../Tarefas/Tarefa";
 
 function ListaTarefas() {
   return (
-  <>
-  </>
+    <>
+      <Tarefa  />
+    </>
   );
 }
 
