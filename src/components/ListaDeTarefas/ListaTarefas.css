@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; 
+    padding: 20px;
+  }
+  
+  header {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #4CAF50; 
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+
+  .tarefas {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    width: 100%;
+    max-width: 500px; 
+  }
+  
+  .tarefa {
+    background-color: #ffffff; 
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  
+  .tarefa:hover {
+    background-color: #f1f1f1; 
+    cursor: pointer;
+  }
+  
